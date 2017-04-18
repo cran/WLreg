@@ -1,0 +1,10 @@
+58cbfef245f5ae3b427f0d91667cad25 *DESCRIPTION
+021abd6a9f2afc4d8b472f13f53d1390 *NAMESPACE
+c88bceff723a4edf2e01ea864f443374 *R/winreg.R
+f0e2f4ba2aa16971fad7a8210ac589e2 *R/wrlogistic.R
+a8ead2290c58e2bcdd6b3aaf0664ea46 *R/zinv.R
+b1a6a3afb990f0bb083478a3f0b74ff1 *man/winreg.Rd
+1ecb98f8cce855da0735e793893fadb0 *man/wrlogistic.Rd
+9913ea0fa3d4b6cb7b0f0c30ac84ac38 *man/zinv.Rd
+e67153af838d04f18b110e84f53da7a1 *src/WLreg.f90
+5e2292cb9e299349ef34015a21b72928 *src/WLreg_init.c

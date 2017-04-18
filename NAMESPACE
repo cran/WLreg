@@ -1,0 +1,11 @@
+#exportPattern("^[[:alpha:]]+")
+useDynLib(WLreg, .registration = TRUE)
+export(winreg)
+export(wrlogistic)
+export(zinv)
+import("inline","survival")
+importFrom("stats", "pnorm", "rnorm", "runif","residuals")
+
+
+
+
