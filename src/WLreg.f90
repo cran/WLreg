@@ -1,6 +1,5 @@
 
 SUBROUTINE WRLOGISTICA(N,P,Z,WLSTATUS,BETA0,TOL,MAXITER,BETA,UBETA,VU,VBETA,IMATRIX,WTOTAL,LTOTAL,ERR,ITER)
-!DEC$ ATTRIBUTES DLLEXPORT,C,REFERENCE,ALIAS:'wrlogistica_' ::WRLOGISTICA
    !USE NUMERICAL_LIBRARIES
    !USE LINEAR_OPERATORS
    IMPLICIT NONE
@@ -100,7 +99,6 @@ END SUBROUTINE WRLOGISTICA
 ! -------------------------------------------------------------------- 
 SUBROUTINE INV1 (a,n,ai)       ! Invert matrix by Gauss method 
 ! --------------------------------------------------------------------
-!DEC$ ATTRIBUTES DLLEXPORT,C,REFERENCE,ALIAS:'inv1_' ::INV1
 IMPLICIT NONE 
 INTEGER :: n 
 REAL(8) :: a(n,n)
